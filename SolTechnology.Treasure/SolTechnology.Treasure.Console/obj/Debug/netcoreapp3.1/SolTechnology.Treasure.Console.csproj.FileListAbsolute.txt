@@ -1,4 +1,0 @@
-E:\workspace\SolTechnology.Treasure\SolTechnology.Treasure\SolTechnology.Treasure.Console\bin\Debug\netcoreapp3.1\SolTechnology.Treasure.Console.exe
-E:\workspace\SolTechnology.Treasure\SolTechnology.Treasure\SolTechnology.Treasure.Console\obj\Debug\netcoreapp3.1\SolTechnology.Treasure.Console.csprojAssemblyReference.cache
-E:\workspace\SolTechnology.Treasure\SolTechnology.Treasure\SolTechnology.Treasure.Console\obj\Debug\netcoreapp3.1\SolTechnology.Treasure.Console.AssemblyInfoInputs.cache
-E:\workspace\SolTechnology.Treasure\SolTechnology.Treasure\SolTechnology.Treasure.Console\obj\Debug\netcoreapp3.1\SolTechnology.Treasure.Console.AssemblyInfo.cs
