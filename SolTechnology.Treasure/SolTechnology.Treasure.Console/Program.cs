@@ -38,12 +38,9 @@ namespace SolTechnology.Treasure.Console
 
             reader.Close();
 
-            var content = processed.ToString();
+            var fileResult = DetermineFile.DetermineFile.Execute(processed.ToString());
 
-            if (content.Contains("ZUS", StringComparison.InvariantCultureIgnoreCase))
-            {
-                File.Copy(filePath, $"C:\\Users\\Adi\\Downloads\\adrian_strugala_{DateTime.Now:MMyyyy}_podatki_zus.pdf");
-            }
+            File.Copy(filePath, $"C:\\Users\\Adi\\Downloads\\adrian_strugala_{DateTime.Now:MMyyyy}_{fileResult.Category}_{fileResult.Name}.pdf");
 
 
             System.Console.WriteLine(processed);
